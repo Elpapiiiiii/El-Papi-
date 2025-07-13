@@ -1,0 +1,42 @@
+/* ===================== */
+/* Estilos generales     */
+/* ===================== */
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* ===================== */
+/* Header                */
+/* ===================== */
+
+h1 {
+  font-size: 40px;
+  color: blue;
+}
+
+/* ===================== */
+/* Secciones             */
+/* ===================== */
+
+section {
+  background-color: rgb(129, 143, 207);
+  padding: 50px;
+}
+
+/* ===================== */
+/* Página Opiniones      */
+/* ===================== */
+
+.principal {
+  color: rgb(5, 5, 5);
+  padding: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+/* ===================== */
+/* Footer                */
+/* ===================== */
+/* Agregar estilos de footer si es necesario */
