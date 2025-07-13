@@ -36,7 +36,38 @@ section {
   font-weight: bold;
 }
 
+
 /* ===================== */
-/* Footer                */
+/* Footer personalizado  */
 /* ===================== */
-/* Agregar estilos de footer si es necesario */
+
+footer {
+  background-color: #212529;       /* gris-oscuro Bootstrap */
+  color: #f8f9fa;                 /* texto claro */
+  padding: 40px 0;                /* arriba/abajo, respira más */
+  font-size: 0.95rem;
+}
+
+footer a {
+  color: #f8f9fa;                 /* íconos o links en blanco */
+  transition: opacity 0.3s ease;
+}
+
+footer a:hover {
+  opacity: 0.75;                  /* efecto sutil al pasar el mouse */
+}
+
+footer .social-icons img {
+  width: 48px;                    /* tamaño uniforme */
+  margin: 0 8px;
+}
+
+@media (max-width: 576px) {
+  footer {
+    text-align: center;           /* centra todo en pantallas chicas */
+  }
+  footer .social-icons img {
+    width: 40px;
+    margin: 8px;
+  }
+}
