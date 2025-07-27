@@ -13,7 +13,7 @@
   <body>
     <header class="bg-dark text-white py-3">
       <div class="container d-flex justify-content-between align-items-center">
-        <h1 class="m-0">El Papi</h1>
+        <h1 class="fade-in">El Papi</h1>
         <nav>
           <ul class="nav">
             <li class="nav-item">
@@ -39,38 +39,43 @@
         </nav>
       </div>
     </header>
-    <main class="container my-5">
-      <section>
-        <h2 class="mb-4">
-          Déjame tu opinión y un correo para obtener las últimas novedades
-        </h2>
-        <form>
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre:</label>
-            <input type="text" id="nombre" class="form-control" required />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo:</label>
-            <input type="email" id="email" class="form-control" required />
-          </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje:</label>
-            <textarea
-              id="mensaje"
-              rows="5"
-              class="form-control"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-      </section>
-    </main>
-    <footer class="text-center">
-        <div class="container">
-          <p class="mb-3">
+    <main class="container my-5 page-enter">
+  <section class="mb-5">
+    <h2 class="fade-in mb-4">
+      Déjame tu opinión y un correo para obtener las últimas novedades
+    </h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" id="nombre" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo:</label>
+        <input type="email" id="email" class="form-control" required />
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje:</label>
+        <textarea id="mensaje" rows="5" class="form-control" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <!-- NUEVA SECCIÓN CON ANIMACIÓN -->
+  <section class="bounce text-center mt-5">
+    <h3 class="mb-3">Seguime en mis redes 👇</h3>
+    <ul class="list-unstyled">
+      <li>📸 Instagram: <a href="https://www.instagram.com/brianpailacura/" target="_blank">@brianpailacura</a></li>
+      <li>🎥 YouTube: <a href="https://www.youtube.com/@El_Papi" target="_blank">@El_Papi</a></li>
+      <li>🎧 Spotify: <a href="https://open.spotify.com/playlist/1Q0etBj016AQwekqom3Ypk" target="_blank">Mi Playlist</a></li>
+    </ul>
+  </section>
+</main>
+  <footer class="text-center footer-animado">
+  <div class="container">
+    <p class="mb-3">
       © 2025 El Papi — Sigue para más contenido en mi canal de YouTube y otras redes sociales.
-      </p>
+    </p>
     <!-- Íconos/redes -->
     <div class="social-icons d-flex justify-content-center align-items-center">
       <a href="https://www.youtube.com/@El_Papi" target="_blank">
@@ -83,7 +88,8 @@
         <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram">
       </a>
     </div>  
-    </footer>
+  </div>
+</footer>
   </body>
 </html>
 
