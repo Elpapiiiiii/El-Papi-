@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[img/banner-el-papi.png](https://github.com/Elpapiiiiii/El-Papi-/blob/main/Kratos-Mate.png]" alt="El Papi Banner" width="100%">
+  <img src="https://github.com/Elpapiiiiii/El-Papi-/blob/main/Kratos-Mate.png" alt="El Papi Banner" width="30%">
 </p>
 
 # 🎙️ El Papi - Sitio Web del Proyecto
