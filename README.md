@@ -36,6 +36,18 @@ Bienvenido al sitio oficial de **El Papi**, un espacio de expresión personal y 
 ---
 
 ## 📁 Estructura del proyecto
+/index.html
+/pages/
+├─ multimedia.html
+├─ redes-sociales.html
+├─ opiniones.html
+└─ podcasts.html
+/css/
+├─ styles.css (generado desde Sass)
+/scss/
+├─ styles.scss (código fuente Sass)
+/img/
+├─ banner-el-papi.png (banner del proyecto)
 
 ---
 
